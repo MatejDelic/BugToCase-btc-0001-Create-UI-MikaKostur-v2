@@ -1,0 +1,73 @@
+body {
+  width: 600px !important;
+  height: 400px !important;
+}
+
+#navbarLogoText {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  font-weight: 600;
+}
+
+.navbar {
+  margin-top: 2px;
+}
+
+#logoDiv {
+  width: auto;
+}
+
+#logoimage {
+  height: 28px;
+  width: 28px;
+  margin-left: 15px;
+}
+
+#screenshoticon,
+#videorecordingicon,
+#settingsicon,
+#premiumicon {
+  width: 42px;
+  height: 42px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.btn-primary {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.screenshot {
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* .modal {
+  background-color: rgb(85, 96, 91);
+  box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+  padding: 2px 2px;
+} */
+
+/* .modal > .content {
+  width: 100%;
+  padding: 20px 10px;
+} */
+
+/* .modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 4px 10px;
+  line-height: 40px;
+  right: -20px;
+  top: -20px;
+  font-size: 48px;
+  background: #ffffff;
+  border-radius: 36px;
+  border: 2px solid #cfcece;
+} */

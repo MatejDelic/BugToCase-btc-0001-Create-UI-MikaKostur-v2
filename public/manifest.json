@@ -1,0 +1,27 @@
+{
+    "name": "Bug2Case",
+    "description": "Tool for testers",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_title": "Bug2Case",
+      "default_icon": "img/bee.png",
+      "default_popup": "index.html"
+    },
+    "icons" : {
+      "16" : "img/bee.png",
+      "48" : "img/bee.png",
+      "128" : "img/bee.png" 
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "host_permissions": ["<all_urls>"],
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ]
+  }
