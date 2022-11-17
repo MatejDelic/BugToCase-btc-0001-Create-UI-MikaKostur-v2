@@ -47,6 +47,31 @@ body {
   cursor: pointer;
 }
 
+.mar-l {
+  margin-left: 2rem;
+}
+
+.row {
+	display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+	/*align-items: flex-start;*/
+}
+
+.top_right {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+  padding-left: 2rem;
+}
+
 /* .modal {
   background-color: rgb(85, 96, 91);
   box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );

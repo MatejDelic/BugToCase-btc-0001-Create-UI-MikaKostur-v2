@@ -1,0 +1,26 @@
+/* .modal {
+  background-color: rgb(226, 255, 242);
+  box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+  padding: 2px 2px;
+} */
+
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 4px 10px;
+    line-height: 40px;
+    right: -20px;
+    top: -20px;
+    font-size: 48px;
+    background: #ffffff;
+    border-radius: 36px;
+    border: 2px solid #cfcece;
+}
+
+.screenshot {
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+}
