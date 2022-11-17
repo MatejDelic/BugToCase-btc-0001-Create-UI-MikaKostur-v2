@@ -19,7 +19,7 @@ function NavbarContent({sendScreenshot}) {
     }
   };
   const onCaptured = (imageUri) => {
-    console.log(imageUri);
+    /* console.log(imageUri); */
     sendScreenshot(imageUri);
   };
   const onError = (error) => {
